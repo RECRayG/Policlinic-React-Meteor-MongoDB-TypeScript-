@@ -1,0 +1,38 @@
+{
+  "name": "Lab3",
+  "private": true,
+  "scripts": {
+    "start": "cross-env MONGO_URL=mongodb://localhost:27017/policlinic meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.9",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.4",
+    "@types/meteor": "^2.8.2",
+    "@types/react": "^18.0.26",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "meteor-node-stubs": "^1.2.1",
+    "node-sass": "^8.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.41.5",
+    "react-input-mask": "^2.0.4",
+    "react-router-dom": "^6.6.2",
+    "react-select": "^5.7.0",
+    "react-textarea-autosize": "^8.4.0",
+    "react-ui-kit": "^1.0.8",
+    "sass": "^1.57.1"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}

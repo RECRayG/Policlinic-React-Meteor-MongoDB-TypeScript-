@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v40/1PtCg8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMXL830efAesmwYSFoxBEL_I2udQ.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+.TextAreaAnalysisResultStyle {
+  font-family: Noto Sans, sans-serif;
+  display: flex;
+  align-tems: start;
+  padding: 18px 40px 18px 12px;
+  width: 100%;
+  resize: none;
+  background-color: #e6e6e6;
+  border: none;
+  outline: transparent;
+  transition: all 0.25s ease;
+  cursor: pointer;
+
+  font-size: 16px;
+  place-content: center;
+  place-items: center;
+}
+
+.TextAreaAnalysisResultStyle::placeholder {
+  color: black;
+  text-align: start;
+}
+
+.TextareaAutosizeAnalysesStyle {
+  display: flex;
+  align-tems: center;
+  padding: 18px 40px 18px 12px;
+  width: 100%;
+  resize: none;
+  background-color: #f8f8f8;
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: transparent;
+  transition: all 0.25s ease;
+
+  font-size: 12px;
+  font-family: Comfortaa;
+}
+
+.TextareaAutosizeAnalysesStyle:hover {
+  background-color: #e6e6e6;
+}
+
+.TextareaAutosizeAnalysesStyle::placeholder {
+  color: black;
+  text-align: start;
+}
+
+.TextareaAutosizeStyle {
+  display: flex;
+  align-tems: center;
+  padding: 18px 40px 18px 12px;
+  width: 100%;
+  resize: none;
+  background-color: #f8f8f8;
+  border: 1px solid black;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  outline: transparent;
+  transition: all 0.25s ease;
+
+  font-size: 24px;
+  font-family: Comfortaa;
+}
+
+.TextareaAutosizeStyle:hover {
+  background-color: #e6e6e6;
+}
+
+.TextareaAutosizeExplainStyle {
+  display: flex;
+  align-tems: center;
+  padding: 18px 40px 18px 12px;
+  width: 100%;
+  resize: none;
+  background-color: #f8f8f8;
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: transparent;
+  transition: all 0.25s ease;
+
+  font-size: 24px;
+  font-family: Comfortaa;
+}
+
+.TextareaAutosizeStyle:-webkit-autofill {
+  -webkit-background-clip: text;
+}

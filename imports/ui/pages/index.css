@@ -1,0 +1,7 @@
+.pageView > div > div > button {
+    display: none
+}
+
+.pageView > div > div > div > div > .edit-buttons {
+    display: none
+}

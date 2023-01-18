@@ -1,0 +1,5 @@
+.ButtonStyle {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    box-shadow: 5px 5px 5px rgba(40,40,40);
+}

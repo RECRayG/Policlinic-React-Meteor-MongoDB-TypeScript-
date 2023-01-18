@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "types": ["node", "mocha", "meteor", "meteor-roles", "cultofcoders:grapher"],
+    "noFallthroughCasesInSwitch": true,
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "paths": {
+      /* Support absolute /imports/* with a leading '/' */
+      "/*": ["*"]
+    },
+  },
+  "extends": "./tsconfig.paths.json",
+  "include": [
+    "imports",
+    "client",
+    "server",
+    "global.d.ts"
+  ],
+  "exclude": [
+    "./.meteor/**",
+    "./packages/**"
+  ]
+}

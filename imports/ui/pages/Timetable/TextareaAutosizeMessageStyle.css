@@ -1,0 +1,22 @@
+.TextareaAutosizeStyleMessage {
+    display: flex;
+    align-tems: center;
+    padding: 18px 40px 18px 12px;
+    width: 100%;
+    resize: none;
+    background-color: white;
+    border: none;
+    outline: transparent;
+    transition: all 0.25s ease;
+    cursor: default;
+
+    font-size: 18px;
+    place-content: center;
+    place-items: center;
+    font-family: Comfortaa;
+}
+
+::placeholder {
+    color: red;
+    text-align: center;
+}
